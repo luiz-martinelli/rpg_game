@@ -13,7 +13,7 @@ class Lamp extends GameDecoration with Lighting {
     setupLighting(
       LightingConfig(
         radius: tileSize * 1.5,
-        color: Colors.orange.withOpacity(0.3),
+        color: Colors.black.withOpacity(0.3),
         withPulse: true,
         pulseVariation: 0.1,
       ),
